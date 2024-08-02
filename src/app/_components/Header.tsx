@@ -6,7 +6,7 @@ import React from "react";
 
 const Header: React.FC = () => {
   return (
-    <header className="bg-white text-black dark:bg-zinc-600 dark:text-white">
+    <header className="border-b-2 border-b-zinc-300 bg-white text-black dark:border-b-zinc-700 dark:bg-zinc-600 dark:text-white">
       <nav className="px-2 py-2 md:px-4">
         <div className="flex gap-4">
           <button>
@@ -15,13 +15,13 @@ const Header: React.FC = () => {
                 xmlns="http://www.w3.org/2000/svg"
                 fill="none"
                 viewBox="0 0 24 24"
-                stroke-width="1.5"
+                strokeWidth="1.5"
                 stroke="currentColor"
                 className="size-12"
               >
                 <path
-                  stroke-linecap="round"
-                  stroke-linejoin="round"
+                  strokeLinecap="round"
+                  strokeLinejoin="round"
                   d="m2.25 12 8.954-8.955c.44-.439 1.152-.439 1.591 0L21.75 12M4.5 9.75v10.125c0 .621.504 1.125 1.125 1.125H9.75v-4.875c0-.621.504-1.125 1.125-1.125h2.25c.621 0 1.125.504 1.125 1.125V21h4.125c.621 0 1.125-.504 1.125-1.125V9.75M8.25 21h8.25"
                 />
               </svg>
@@ -35,7 +35,7 @@ const Header: React.FC = () => {
               /> */}
             </Link>
           </button>
-          <Button className="" href="/guitars">
+          <Button className="" href="/registry">
             View The Registry
           </Button>
           <input
